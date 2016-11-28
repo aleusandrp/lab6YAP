@@ -1,0 +1,9 @@
+C:\Users\Alex\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\bin\Debug\Achievement _Unlocked_Ya_Sel_Za_Labu.exe.config
+C:\Users\Alex\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\bin\Debug\Achievement _Unlocked_Ya_Sel_Za_Labu.exe
+C:\Users\Alex\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\bin\Debug\Achievement _Unlocked_Ya_Sel_Za_Labu.pdb
+C:\Users\Alex\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\obj\Debug\Achievement _Unlocked_Ya_Sel_Za_Labu.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\obj\Debug\Achievement__Unlocked_Ya_Sel_Za_Labu.Form1.resources
+C:\Users\Alex\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\obj\Debug\Achievement__Unlocked_Ya_Sel_Za_Labu.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\obj\Debug\Achievement _Unlocked_Ya_Sel_Za_Labu.csproj.GenerateResource.Cache
+C:\Users\Alex\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\obj\Debug\Achievement _Unlocked_Ya_Sel_Za_Labu.exe
+C:\Users\Alex\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\obj\Debug\Achievement _Unlocked_Ya_Sel_Za_Labu.pdb
