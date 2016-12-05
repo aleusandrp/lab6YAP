@@ -73,9 +73,38 @@ namespace Achievement__Unlocked_Ya_Sel_Za_Labu
             Close();
         }
 
+<<<<<<< HEAD
         private void Form1_Load(object sender, EventArgs e)
         {
 
+=======
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        {
+
+            if(MouseButtons == MouseButtons.Right || ModifierKeys == Keys.None)
+            {
+                Width -= 10;
+                Height -= 10;
+                Left += 5;
+                Top += 5;
+            }
+
+            if(MouseButtons == MouseButtons.Right || ModifierKeys == Keys.Shift)
+            {
+                Width += 10;
+                Height += 10;
+                Left -= 5;
+                Top -= 5;
+            }
+
+            if (e.Button == MouseButtons.Middle || e.Button == MouseButtons.Left && MouseButtons == MouseButtons.Right)
+                Location = new Point(Cursor.Position.X - Width / 2, Cursor.Position.Y - Height / 2);
+        }
+
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            Text = "Ширина: " + Width.ToString() + " Высота: " + Height.ToString();
+>>>>>>> origin/master
         }
     }
 }
