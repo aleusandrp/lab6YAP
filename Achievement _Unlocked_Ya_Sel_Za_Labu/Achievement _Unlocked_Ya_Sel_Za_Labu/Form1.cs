@@ -72,12 +72,10 @@ namespace Achievement__Unlocked_Ya_Sel_Za_Labu
         {
             Close();
         }
-
-<<<<<<< HEAD
+        
         private void Form1_Load(object sender, EventArgs e)
         {
-
-=======
+        }
         private void Form1_MouseUp(object sender, MouseEventArgs e)
         {
 
@@ -104,7 +102,6 @@ namespace Achievement__Unlocked_Ya_Sel_Za_Labu
         private void Form1_Resize(object sender, EventArgs e)
         {
             Text = "Ширина: " + Width.ToString() + " Высота: " + Height.ToString();
->>>>>>> origin/master
         }
     }
 }

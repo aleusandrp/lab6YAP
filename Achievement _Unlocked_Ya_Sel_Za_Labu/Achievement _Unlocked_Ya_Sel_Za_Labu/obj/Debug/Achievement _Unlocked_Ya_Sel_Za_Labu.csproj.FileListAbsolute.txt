@@ -17,3 +17,4 @@ C:\Users\Алекс\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Lab
 C:\Users\Алекс\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\obj\Debug\Achievement__Unlocked_Ya_Sel_Za_Labu.Properties.Resources.resources
 C:\Users\Алекс\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\obj\Debug\Achievement _Unlocked_Ya_Sel_Za_Labu.csproj.GenerateResource.Cache
 C:\Users\Алекс\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\obj\Debug\Achievement__Unlocked_Ya_Sel_Za_Labu.Z2.resources
+C:\Users\Alex\Documents\GitHub\lab6YAP\Achievement _Unlocked_Ya_Sel_Za_Labu\Achievement _Unlocked_Ya_Sel_Za_Labu\obj\Debug\Achievement__Unlocked_Ya_Sel_Za_Labu.Z2.resources

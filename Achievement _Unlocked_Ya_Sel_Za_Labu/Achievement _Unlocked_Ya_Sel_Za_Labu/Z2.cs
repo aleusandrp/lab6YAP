@@ -41,8 +41,8 @@ namespace Achievement__Unlocked_Ya_Sel_Za_Labu
         {
             try
             {
-                Kv.A = Double.Parse(textBox1.Text);
-                BiKv.A = Double.Parse(textBox1.Text);
+                Kv.A = Double.Parse(textBox2.Text);
+                BiKv.A = Double.Parse(textBox2.Text);
             }
             catch
             {
@@ -83,6 +83,35 @@ namespace Achievement__Unlocked_Ya_Sel_Za_Labu
             }
             ChangeKv();
             ChangeBiKv();
+        }
+
+        private void Z2_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Tab)
+            {
+                textBox1.SelectAll();
+                textBox2.SelectAll();
+                textBox3.SelectAll();
+            }
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            bool Minez = ((TextBox)sender).Text.Length > 0 ? true : false;
+            bool Seporator = ((((TextBox)sender).Text.Length == 1 && ((TextBox)sender).Text[0] != '-') || ((((TextBox)sender).Text.Length == 2) && Char.IsDigit(Convert.ToChar(((TextBox)sender).Text[1])))) ? true : false;
+            bool Zero = ((((TextBox)sender).Text.Length == 1 && ((TextBox)sender).Text[0] == '0') || (((TextBox)sender).Text.Length == 2 && ((TextBox)sender).Text[1] == '0')) ? true : false;
+
+            if ((e.KeyChar <= 47 || e.KeyChar >= 57) && e.KeyChar != 8 && e.KeyChar != 44 && e.KeyChar != 45)
+                e.Handled = true;
+            else if (e.KeyChar == 45 && Minez)
+                e.Handled = true;
+            else if (e.KeyChar == 44 && !Seporator)
+                e.Handled = true;
+            else if (e.KeyChar == 48 && Zero)
+                e.Handled = true;
+            else
+                return;
+
         }
     }
 }
