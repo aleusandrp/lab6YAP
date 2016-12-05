@@ -23,8 +23,8 @@ namespace Achievement__Unlocked_Ya_Sel_Za_Labu
         {
             if (EpilepsyHall)
             {
-                double x = (double)e.X / Size.Width * 255;
-                double y = (double)e.Y / Size.Height * 255;
+                double x = (double)e.X / ClientSize.Width * 255;
+                double y = (double)e.Y / ClientSize.Height * 255;
                 BackColor = Color.FromArgb((int)x, (int)y, (int)y);
             }
         }
@@ -71,6 +71,11 @@ namespace Achievement__Unlocked_Ya_Sel_Za_Labu
         private void Form1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
