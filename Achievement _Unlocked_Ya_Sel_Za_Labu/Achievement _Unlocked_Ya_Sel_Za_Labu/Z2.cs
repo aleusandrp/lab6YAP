@@ -101,6 +101,7 @@ namespace Achievement__Unlocked_Ya_Sel_Za_Labu
             bool Seporator = ((((TextBox)sender).Text.Length == 1 && ((TextBox)sender).Text[0] != '-') || ((((TextBox)sender).Text.Length == 2) && Char.IsDigit(Convert.ToChar(((TextBox)sender).Text[1])))) ? true : false;
             bool Zero = ((((TextBox)sender).Text.Length == 1 && ((TextBox)sender).Text[0] == '0') || (((TextBox)sender).Text.Length == 2 && ((TextBox)sender).Text[1] == '0')) ? true : false;
 
+            
             if ((e.KeyChar <= 47 || e.KeyChar >= 57) && e.KeyChar != 8 && e.KeyChar != 44 && e.KeyChar != 45)
                 e.Handled = true;
             else if (e.KeyChar == 45 && Minez)
@@ -109,6 +110,8 @@ namespace Achievement__Unlocked_Ya_Sel_Za_Labu
                 e.Handled = true;
             else if (e.KeyChar == 48 && Zero)
                 e.Handled = true;
+            else if (((TextBox)sender).Text == ((TextBox)sender).SelectedText)
+                ((TextBox)sender).Text = "";
             else
                 return;
 
